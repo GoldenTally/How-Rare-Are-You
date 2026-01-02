@@ -123,12 +123,7 @@ body{
     font-size: 20px;
 }
 
-.MastHead{
-    font-family: "Montserrat";
-    -webkit-text-fill-color: rgb(255, 255, 255);
-    text-shadow: 0 5px 15px rgb(38, 38, 38);
-    font-size: 20px;
-}
+
 
 .Box2 input{
     background-color: #a4b6b2be;
@@ -203,4 +198,5 @@ body{
 
 .Container button.show{
     visibility: hidden;
+
 }
