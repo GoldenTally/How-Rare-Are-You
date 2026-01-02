@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+
+<html>
+
+  <head> <title>How Rare are You?</title>
+<link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+  </head>
+
+  <body>
+    <link rel="stylesheet" href="style.css">
+    <script async type="text/javascript" src="logic.js"></script>
+  <section class="Topbg">
+  <div>
+
+
+   <h1>How Rare Are You?</h1>
+     <p>This site will allow for you to assess how rare you are in comparison to other people.
+      <br>
+        It uses global census statistics and multiplies the % of people in which have that, for standarized things e.g.(hair color, eye color, race.)
+      <br> For things that are variable, such as IQ, Height, Size.
+      <br> It follow simple formulas to deduce of which quantile you are from, then multiplying all values, to find out what % of people have the traits you do.
+      <br> All this in conjunction allows you to determine How Rare You Are!
+     </p>
+
+  <section  class="SText">
+
+        <p>Common traits are as follows:
+      <br>
+      <ul>
+        <li>Height</li>
+        <li>IQ</li>
+        <li>Size</li>
+        <li>Hair Color</li>
+        <li>Eye Color</li>
+        <li>Race</li>
+      </ul>
+  </section>
+  </section>
+      <br>
+      <br>
+      <br>
+      <section class="Hd">
+        <h1 id="test">Find Out How Rare I Am</h1>
+      </section>
+      <br>
+    <div>
+      <section class="Container">
+        <div class="Box1">
+          <h1>Hair Color</h1>
+          <select id="Hair" name="Hair">
+            <option value="HBrown">Brown</option>
+            <option value="HBlack">Black</option>
+            <option value="HBlonde">Blonde</option>
+            <option value="HGrey">Grey</option>
+            <option value="HRed">Red</option>
+            <option value="HOther">Other</option>
+          </select>
+          <br>
+          <sub>Please Select General Hair Color</sub>
+          <br>
+          <h1>Eye Color:</h1>
+          <select id="Eye" name="Eye">
+            <option id="EBrown">Brown</option>
+            <option id="EBlack">Black</option>
+            <option id="EBlue">Blue</option>
+            <option id="EHazel">Hazel</option>
+            <option id="EGreen">Green</option>
+            <option id="EYellow">Yellow</option>
+            <option id="EOther">Other</option>
+          </select>
+          <br>
+          <sub>Please Select General Eye Color</sub>
+          <br>
+          <h1>Race:</h1>
+          <select id="Race" name="Race">
+            <option id="RWhite">White</option>
+            <option id="RBlack">Black/African American</option>
+            <option id="Hispanic">Hispanic</option>
+            <option id="MiddleEastern">Middle Eastern</option>
+            <option id="Asian">Asian</option>
+            <option id="Indian">Indian</option>
+            <option id="NativeAmerican">Native American</option>
+            <option id="PacificIslander">Pacific Islander</option>
+            <option id="Multiracial">Multiracial/Other</option>
+          </select>
+          <br>
+          <sub>If Race Is Not Found Select Other,<br> Nationality Is Not Race</sub>
+        </div>
+        <div class="Box3">
+          <h1>You Are One In <h1 id="Rarity"></h1></h1><h1>People</h1>
+          <br><h2>Or In Other Words</h2><br>
+          <h1>You Represent <h1 id="Rarity%"></h1><h2>Of The Population!</h2></h1>
+        </div>
+        <div class="Box2">
+        <br>
+        <p><h1>Height</h1> <input type="number" id="height" placeholder="In" min="16" max="110"></input> <br> <sub>In inches</sub></p>
+        <br>
+        <p><h1>IQ</h1> <input type="number" id="IQ" placeholder="IQ" min="50" max="250"></input> <br> <sub>If unknown <a href="https://www.mensa.org/mensa-iq-challenge/" target="_blank">Click here</a></sub></p>
+        <br>
+        <p><h1>Size</h1> <input type="number" id="Size" placeholder="BMI" min="16" max="40"></input> <br> <sub>If unknown <a href="https://www.cdc.gov/bmi/adult-calculator/index.html" target="blank">Click here</a></sub></p>
+        <br>
+        <button id="submitbutton">Submit</button>
+        </div>
+      </section>
+    </div>
+    <br>
+    <br>
+    <br>
+
+    <section class="MastHead">
+      <sub>Matteo Bannon est.2025</sub>
+    </section>
+  </body>
+
+</html> 

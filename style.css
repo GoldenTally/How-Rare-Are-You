@@ -1,0 +1,206 @@
+
+
+
+
+html{
+    scale: 0.7;
+}
+body{
+    background-color: rgb(76, 76, 237);
+    text-align: center;
+    -webkit-text-fill-color: azure;
+    font-family: 'Montserrat';
+    background: linear-gradient(to bottom, #4242f4, rgb(226, 226, 226));
+    margin: 0;
+    height: 170vh;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.SText{
+    text-align: left;
+    -webkit-text-fill-color: azure;
+    font-family: 'Montserrat';
+    font-size: large;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 30px;
+    text-shadow: 0 5px 15px black;
+}
+
+.Container{
+    background-color: #fff;
+    -webkit-text-fill-color: black;
+    background: linear-gradient(to bottom, #fff, #cfe4e3);
+    border-radius: 30px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.35);
+    position: relative;
+    font-family: "Montserrat";
+    height: 135vh;
+    width: 1080px;
+}
+
+.Container button{
+    background-color: rgb(151, 59, 187);
+    color: #fff;
+    font-size: 12px;
+    padding: 10px 45px;
+    border: 1px solid transparent;
+    border-radius: 8px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    -webkit-text-fill-color: #fff;
+    text-transform: uppercase;
+    margin-top: 10px;
+    font-family: "Monserrat";
+    cursor: pointer;
+    visibility: visible;
+}
+
+.Container select{
+    background-color: rgb(88, 176, 214);
+    border: solid;
+    border-color:#73afcd;
+    border-radius: 10px;
+    margin: 8px 0;
+    padding: 10px 15px;
+    font-size: 13px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.35);
+    font-family: "Montserrat";
+    font-weight: 300;
+    -webkit-text-fill-color: rgb(14, 20, 65);
+    background: linear-gradient(to bottom, #73afcd, #fff);
+
+}
+
+.Box1{
+    border: 6px solid;
+    border-color: rgb(52, 101, 136);
+    background-color: #b8e1f5;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.35);
+    background: linear-gradient(to right, #b8e1f5, rgb(52, 101, 136));
+    border-radius: 30px;
+    padding: 10px 15px;
+    margin: 8px 0;
+    margin-bottom: 0px 0;
+    position: relative;
+    transform: translateY(0px) scaleY(1);
+    transition: transform 250ms ease;
+}
+
+.Box1.show{
+    transform: translateY(675px) scaleY(1.2)
+
+}
+
+
+
+.Topbg{
+    font-family: "Montserrat";
+    font-size: 35px;
+    text-shadow: 0 5px 15px black;
+}
+
+.Hd{
+    text-shadow: 0 5px 15px black; 
+}
+
+#Race{
+    font-size: 20px;
+}
+
+#Hair{
+    font-size: 20px;
+}
+
+#Eye{
+    font-size: 20px;
+}
+
+.MastHead{
+    font-family: "Montserrat";
+    -webkit-text-fill-color: rgb(255, 255, 255);
+    text-shadow: 0 5px 15px rgb(38, 38, 38);
+    font-size: 20px;
+}
+
+.Box2 input{
+    background-color: #a4b6b2be;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 8px;
+    width: 55%;
+    font-family: "Montserrat";
+    font-size: 22px;
+}
+
+.Box2 sub{
+    font-family: "Montserrat";
+    font-size: 18px;
+}
+
+.Box2 button{
+    background-color: #512da8;
+    color: #fff;
+    font-size: 12px;
+    padding: 10px 45px;
+    border-radius: 9px;
+    border: 1px solid transparent;
+    -webkit-box-align: center;
+    position: relative;
+    box-shadow: 0 5px 15px rgba(40, 4, 49, 0.683);
+    letter-spacing: 0.5px;
+    margin-top: 10px;
+    width: 25%;
+    height: 25%;
+    cursor: pointer;
+    transition: 150ms ease;
+}
+
+.Box2 button:hover{
+    background-color: #7952d5;
+    scale: 1.2;
+    transition: 150ms ease-out;
+}
+.Box2 button:active{
+    background-color: #512da8;
+    scale: 1.1;
+    box-shadow: 1 10px 25px rgba(15, 1, 19, 0.683);
+}
+#Race option{
+ background-color: #b8e1f5;
+}
+
+#Hair option{
+ background-color: #b8e1f5;
+}
+
+#Eye option{
+ background-color: #b8e1f5;
+}
+
+.Box3{
+    position: absolute;
+    top: 100px;
+    top: 50px;
+    text-align: center;
+    right: 400px;
+    font-family: "Montserrat";
+    visibility: hidden;
+
+}
+
+.Box3.show{
+    visibility: visible;
+}
+
+
+.Container button.show{
+    visibility: hidden;
+}
